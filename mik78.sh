@@ -20,4 +20,4 @@ sleep 5 && \
 dd if=chr.img of=/dev/$STORAGE bs=4M oflag=sync && \
 echo "Ok, reboot" && \
 echo 1 > /proc/sys/kernel/sysrq && \
-echo b > /proc/sysrq-trigger && \
+echo b > /proc/sysrq-trigger
